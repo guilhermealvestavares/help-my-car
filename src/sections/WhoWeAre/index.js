@@ -1,5 +1,6 @@
 import React from "react";
-import { Wrapper, Title, GridFlex, GridFlexItem } from "./styles";
+import { Wrapper, Title, GridFlex } from "./styles";
+import Card from "../../components/Card";
 
 const WhoWeAre = () => {
   return (
@@ -7,9 +8,9 @@ const WhoWeAre = () => {
       <Wrapper>
         <Title>Lorem ipsum dolor sit amet</Title>
         <GridFlex>
-          <GridFlexItem>Lorem ipsum</GridFlexItem>
-          <GridFlexItem>Lorem ipsum</GridFlexItem>
-          <GridFlexItem>Lorem ipsum</GridFlexItem>
+          <Card>Lorem ipsum</Card>
+          <Card>Lorem ipsum</Card>
+          <Card>Lorem ipsum</Card>
         </GridFlex>
       </Wrapper>
     </>
