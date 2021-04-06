@@ -24,6 +24,7 @@ const GridFlexItem = styled.div`
   background-color: #ffffff;
   border-radius: 8px;
   padding: 16px 32px;
+  text-align: center;
 
   &:not(:last-child) {
     margin-right: 16px;
