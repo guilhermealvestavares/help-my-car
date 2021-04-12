@@ -1,6 +1,7 @@
 import Head from "next/head";
 import styles from "../../styles/Home.module.css";
 import WhoWeAre from "../sections/WhoWeAre";
+import BaseList from "../sections/BaseList";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
       </Head>
 
       <WhoWeAre />
+      <BaseList />
     </div>
   );
 }

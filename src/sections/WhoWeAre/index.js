@@ -4,16 +4,14 @@ import Card from "../../components/Card";
 
 const WhoWeAre = () => {
   return (
-    <>
-      <Wrapper>
-        <Title>Lorem ipsum dolor sit amet</Title>
-        <GridFlex>
-          <Card>Lorem ipsum</Card>
-          <Card>Lorem ipsum</Card>
-          <Card>Lorem ipsum</Card>
-        </GridFlex>
-      </Wrapper>
-    </>
+    <Wrapper>
+      <Title>Lorem ipsum dolor sit amet</Title>
+      <GridFlex>
+        <Card>Lorem ipsum</Card>
+        <Card>Lorem ipsum</Card>
+        <Card>Lorem ipsum</Card>
+      </GridFlex>
+    </Wrapper>
   );
 };
 
